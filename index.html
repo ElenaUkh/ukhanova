@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#F2F2F2">
+  <title>Уханова Елена Сергеевна — вайбкодер</title>
+  <meta name="description" content="Уханова Елена Сергеевна, вайбкодер и создатель цифровых решений. Сайты, интерфейсы и инструменты: от идеи до работающего продукта.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23141414'/%3E%3Cpath d='M8 8.5h3.1l4.9 8.2 4.9-8.2H24L17.2 19.2V24h-2.4v-4.8L8 8.5z' fill='%23F2F2F2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+  <!--
+    ДАННЫЕ САЙТА
+
+    Имя: ищите data-edit="name" — шапка, первый экран, контакты, подвал.
+    То же имя стоит в <title> и в alt портрета.
+
+    Подпись: data-edit="role"
+
+    Контакты и ссылки: единственное место — комментарий data-edit="contacts"
+    в разделе «Обсудим вашу идею». Пока своих ссылок нет, на странице их нет.
+
+    Проекты: раздел «Мои проекты», картинки в images/projects.
+    Не добавляйте клиентов, отзывы, награды и цифры, если их нет.
+  -->
+
+  <a class="skip" href="#main">К содержанию</a>
+
+  <header class="site-header">
+    <div class="wrap header__inner">
+      <a class="logo" href="#top" data-edit="name">Уханова Елена Сергеевна</a>
+      <nav class="nav" aria-label="Разделы страницы">
+        <ul>
+          <li><a href="#services">Возможности</a></li>
+          <li><a href="#about">Подход</a></li>
+          <li><a href="#process">Работа</a></li>
+          <li><a href="#works">Проекты</a></li>
+          <li><a href="#contact">Контакт</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero__layout">
+        <div class="hero__text">
+          <p class="hero__name" data-edit="name">Уханова Елена Сергеевна</p>
+          <p class="hero__role" data-edit="role">Вайбкодер и создатель цифровых решений</p>
+          <h1 id="hero-title">Превращаю идеи <span class="line">в работающие</span> <span class="line">цифровые продукты</span></h1>
+          <p class="hero__lead">Создаю сайты, интерфейсы и инструменты с помощью искусственного интеллекта. Соединяю эстетику, логику и технологии, чтобы решать конкретные задачи.</p>
+          <div class="actions">
+            <a class="button" href="#contact">Обсудить проект</a>
+            <a class="button button--ghost" href="#services">Посмотреть возможности</a>
+          </div>
+        </div>
+        <figure class="hero__portrait">
+          <img
+            src="images/portrait.jpg"
+            width="1545"
+            height="1679"
+            alt="Портрет Ухановой Елены Сергеевны: короткие тёмные волосы, очки, светлый пиджак, сидит на стуле и смотрит в сторону."
+            fetchpriority="high"
+            decoding="async"
+          >
+        </figure>
+      </div>
+    </section>
+
+    <section id="services" class="section" aria-labelledby="services-title">
+      <div class="wrap">
+        <div class="reveal">
+          <h2 id="services-title">Что я могу создать</h2>
+          <!--
+            Каждое направление — отдельный пункт списка.
+            Можно править заголовок и текст, удалить пункт или добавить новый по тому же образцу.
+          -->
+          <ol class="services">
+            <li class="service">
+              <span class="index" aria-hidden="true">01</span>
+              <h3>Персональные сайты и лендинги</h3>
+              <p>Страница, на которой понятно, кто вы и зачем с вами говорить. Человек быстро схватывает суть и видит, как продолжить.</p>
+            </li>
+            <li class="service">
+              <span class="index" aria-hidden="true">02</span>
+              <h3>Интерактивные веб-приложения</h3>
+              <p>Интерфейс, где можно не только прочитать об идее, но и пройти её: выбрать, сравнить или проверить сценарий.</p>
+            </li>
+            <li class="service">
+              <span class="index" aria-hidden="true">03</span>
+              <h3>Прототипы цифровых продуктов</h3>
+              <p>Ранняя рабочая версия. Её можно показать другим и по ней решить, что оставить, что изменить и куда двигаться дальше.</p>
+            </li>
+            <li class="service">
+              <span class="index" aria-hidden="true">04</span>
+              <h3>Чат-боты и инструменты автоматизации</h3>
+              <p>Помощник для повторяющихся вопросов и действий. Рутина собирается в ясный сценарий, а живое внимание остаётся людям.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about" aria-labelledby="about-title">
+      <div class="wrap">
+        <div class="about__layout reveal">
+          <h2 id="about-title">Обо мне</h2>
+          <p class="about__statement">Мне важно, чтобы цифровой продукт был не только красивым, но и понятным. Начинаю с задачи, продумываю пользовательский сценарий и использую инструменты искусственного интеллекта для реализации и проверки решений.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section" aria-labelledby="process-title">
+      <div class="wrap">
+        <div class="reveal">
+          <h2 id="process-title">Как строится работа</h2>
+          <p class="section__note">Сначала задача и прототип, затем разработка, проверка и передача результата.</p>
+          <ol class="steps">
+            <li class="step">
+              <span class="index" aria-hidden="true">01</span>
+              <h3>Обсуждение задачи</h3>
+              <p>Выясняем, для кого продукт и какой результат нужен.</p>
+            </li>
+            <li class="step">
+              <span class="index" aria-hidden="true">02</span>
+              <h3>Прототип</h3>
+              <p>Собираю раннюю версию, чтобы стал виден сценарий.</p>
+            </li>
+            <li class="step">
+              <span class="index" aria-hidden="true">03</span>
+              <h3>Разработка</h3>
+              <p>Делаю страницу или инструмент, которыми можно пользоваться.</p>
+            </li>
+            <li class="step">
+              <span class="index" aria-hidden="true">04</span>
+              <h3>Проверка</h3>
+              <p>Проверяю понятность, логику и вид на разных экранах.</p>
+            </li>
+            <li class="step">
+              <span class="index" aria-hidden="true">05</span>
+              <h3>Передача результата</h3>
+              <p>Отдаю работу и коротко объясняю, как ей пользоваться.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="section" aria-labelledby="works-title">
+      <div class="wrap">
+        <div class="reveal">
+          <h2 id="works-title">Мои проекты</h2>
+          <!--
+            Каждый проект — отдельный пункт. Можно править название, текст и картинку.
+            Картинки лежат в images/projects, формат 16:10.
+            Ссылку добавляйте только если страница или приложение действительно открываются.
+          -->
+          <ol class="projects">
+            <li class="project">
+              <figure class="project__cover">
+                <img src="images/projects/game.jpg" width="1200" height="750" loading="lazy" decoding="async" alt="Стартовый экран игры «Фея Буква»: персонаж-единорог и четыре задания — буквы, слоги, слова, предложения.">
+              </figure>
+              <div class="project__body">
+                <span class="index" aria-hidden="true">01</span>
+                <h3>Фея Буква</h3>
+                <p>Игра для детей, которые учатся читать. Четыре задания: буквы, слоги, слова и предложения. Ребёнка встречает и ведёт по игре Фея Буква.</p>
+              </div>
+            </li>
+            <li class="project">
+              <figure class="project__cover">
+                <img src="images/projects/park.jpg" width="1200" height="750" loading="lazy" decoding="async" alt="Первый экран опроса «Каким быть парку 50-летия Октября?» на фоне осенней аллеи парка.">
+              </figure>
+              <div class="project__body">
+                <span class="index" aria-hidden="true">02</span>
+                <h3>Опрос о благоустройстве парка</h3>
+                <p>Анонимный сайт для жителей Вологды. Можно рассказать, как часто бываете в парке 50-летия Октября в Лукьяново, отметить проблемы, оценить парк и предложить, каким его сделать: отдых, спорт, выгул животных и другие зоны.</p>
+                <a class="project__link" href="https://vologdasreda.ru/">Открыть опрос</a>
+              </div>
+            </li>
+            <li class="project">
+              <figure class="project__cover">
+                <img src="images/projects/budget.jpg" width="1200" height="750" loading="lazy" decoding="async" alt="Главный экран приложения «Семейный бюджет»: остаток за месяц, доходы, расходы, копилки и лимиты по категориям.">
+              </figure>
+              <div class="project__body">
+                <span class="index" aria-hidden="true">03</span>
+                <h3>Семейный бюджет</h3>
+                <p>Мобильное приложение для учёта семейных денег. В нём есть обзор месяца, доходы и расходы, категории, участники семьи и копилки.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <div class="wrap contact__layout reveal">
+        <div class="contact__intro">
+          <p class="contact__name" data-edit="name">Уханова Елена Сергеевна</p>
+          <h2 id="contact-title">Обсудим вашу идею</h2>
+        </div>
+        <div class="contact__aside">
+          <p>Расскажите, какую задачу нужно решить и для кого. По этому описанию становится понятно, что уместнее: страница, прототип или инструмент.</p>
+          <!--
+            data-edit="contacts"
+            Вставьте реальные ссылки сразу под этим комментарием, внутри contact__aside.
+            Пример:
+
+            <address class="contact__links">
+              <a href="mailto:ваш-адрес">ваш-адрес</a>
+              <a href="https://t.me/имя">Telegram</a>
+            </address>
+          -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer__row">
+      <p data-edit="name">Уханова Елена Сергеевна</p>
+      <p data-edit="role">Вайбкодер и создатель цифровых решений</p>
+    </div>
+  </footer>
+</body>
+</html>
